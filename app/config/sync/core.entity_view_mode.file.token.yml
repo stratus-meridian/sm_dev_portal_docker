@@ -1,0 +1,10 @@
+uuid: cab57048-e035-4a8b-983a-d39ff0b6f0fd
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+id: file.token
+label: Token
+targetEntityType: file
+cache: true

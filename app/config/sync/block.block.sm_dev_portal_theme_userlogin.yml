@@ -1,0 +1,28 @@
+uuid: 99489d42-3363-4fa9-b5b4-dc4ade4ab563
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - sm_dev_portal_theme
+_core:
+  default_config_hash: 7xxmBMqoyrvFAJQjO92nvBq_3-ZCKvhXMJgovDkicoo
+id: sm_dev_portal_theme_userlogin
+theme: sm_dev_portal_theme
+region: sidebar_first
+weight: -3
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: "404\r\n/user/register"
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,23 @@
+uuid: 043c2129-e81e-4d1a-8b02-ffbb68441d18
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sm_dev_portal_theme
+_core:
+  default_config_hash: Vbe-Ql62iTBA737ZLqFLkPkZnIqBsrMpe87Arzpe-vw
+id: copyright
+theme: sm_dev_portal_theme
+region: footer_third
+weight: -6
+provider: null
+plugin: 'block_content:81b36519-1310-4dfb-b208-b2930b1b89d4'
+settings:
+  id: 'block_content:81b36519-1310-4dfb-b208-b2930b1b89d4'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

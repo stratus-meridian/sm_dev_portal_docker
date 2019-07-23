@@ -1,0 +1,22 @@
+uuid: 98afb012-5e45-4c81-93e1-d9dc9b6c545a
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - sm_dev_portal_theme
+_core:
+  default_config_hash: a-R4lcumbOnkm_r7DF-PA-CjneA64q8zOt48L1f43bs
+id: sm_dev_portal_theme_breadcrumbs
+theme: sm_dev_portal_theme
+region: breadcrumb
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

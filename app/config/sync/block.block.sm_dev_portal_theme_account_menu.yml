@@ -1,0 +1,27 @@
+uuid: e9a76fce-da9b-45af-851e-9711bc72a96d
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - sm_dev_portal_theme
+_core:
+  default_config_hash: '-UlJbE8STv7AzRwz43KczViJhHx3V1TSST-I_2QyG2Y'
+id: sm_dev_portal_theme_account_menu
+theme: sm_dev_portal_theme
+region: sidebar_second
+weight: -4
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

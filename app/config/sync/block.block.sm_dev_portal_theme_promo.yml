@@ -1,0 +1,30 @@
+uuid: 781b495a-aa11-4f09-9720-256aa265c910
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sm_dev_portal_theme
+_core:
+  default_config_hash: joXzrUhYpbCmyaPr1mG_QJoEj01dpE3iLpysxEzkjf8
+id: sm_dev_portal_theme_promo
+theme: sm_dev_portal_theme
+region: promo
+weight: 0
+provider: null
+plugin: 'block_content:e3663901-bb01-4daa-bde2-351050355c84'
+settings:
+  id: 'block_content:e3663901-bb01-4daa-bde2-351050355c84'
+  label: Promo
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

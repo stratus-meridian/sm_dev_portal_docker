@@ -1,0 +1,22 @@
+uuid: 8eb27432-be98-4c60-a8f7-7bb651c1ad0a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sm_dev_portal_theme
+_core:
+  default_config_hash: QJFwLH4w5GqjHz5Ez-ZiRV2YDE4DcAxryViLSvK1JWc
+id: sm_dev_portal_theme_content
+theme: sm_dev_portal_theme
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

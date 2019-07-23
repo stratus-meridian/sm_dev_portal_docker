@@ -1,0 +1,40 @@
+uuid: 96a8cbe7-a29d-459e-a923-a992d59c6338
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_image
+    - node.type.documentation
+  module:
+    - image
+_core:
+  default_config_hash: DmKA4cEZzQpiJi3iEuo-nVh38ZE3z9OnKKu3up7ctRg
+id: node.documentation.field_domain_image
+field_name: field_domain_image
+entity_type: node
+bundle: documentation
+label: 'Domain Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: apis
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: eeb8adfd-395d-4b80-84a3-9c3d516a4792
+    alt: ''
+    title: ''
+    width: 600
+    height: 400
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

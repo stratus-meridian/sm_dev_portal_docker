@@ -1,0 +1,20 @@
+palette:
+  top: '#055a8e'
+  bottom: '#007bff'
+  bg: '#ffffff'
+  sidebar: '#f6f6f2'
+  sidebarborders: '#f9f9f9'
+  footer: '#292929'
+  button: '#007bff'
+  buttonhover: '#0256b1'
+  titleslogan: '#fffeff'
+  text: '#292929'
+  link: '#007bff'
+logo: 'public://color/sm_dev_portal_theme-c5db440b/logo.svg'
+stylesheets:
+  - 'public://color/sm_dev_portal_theme-c5db440b/colors.css'
+files:
+  - 'public://color/sm_dev_portal_theme-c5db440b/logo.svg'
+  - 'public://color/sm_dev_portal_theme-c5db440b/colors.css'
+_core:
+  default_config_hash: Fv-gK4b88391adbZXMo3RlPFthiX5bj9-kJkzOO0S_0

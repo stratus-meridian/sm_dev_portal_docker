@@ -1,0 +1,38 @@
+uuid: 61f52c86-67df-4136-958d-d50f30c145c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - search
+    - system
+  theme:
+    - sm_dev_portal_theme
+_core:
+  default_config_hash: X_i9Kf8c8NVW-WXLeK4tf_5cJPgnDIQ8Os8tWyPN6Nk
+id: sm_dev_portal_theme_searchform
+theme: sm_dev_portal_theme
+region: sidebar_first
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: visible
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      documentation: documentation
+      page: page
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: "/node/8\r\n/node/7\r\n/404"
+    negate: true
+    context_mapping: {  }

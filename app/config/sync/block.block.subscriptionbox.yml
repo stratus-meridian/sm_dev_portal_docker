@@ -1,0 +1,30 @@
+uuid: 4f602e94-5e5b-43fd-91d2-bcc30e4f843a
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - sm_dev_portal
+_core:
+  default_config_hash: 3dfyE8hrS9CxTy99RYgIM0TmaQa1AMSificdsPtO_tM
+id: subscriptionbox
+theme: sm_dev_portal
+region: ''
+weight: -6
+provider: null
+plugin: 'block_content:9bc59150-1ee0-4cf0-9fff-5d3533ce0058'
+settings:
+  id: 'block_content:9bc59150-1ee0-4cf0-9fff-5d3533ce0058'
+  label: 'Subscription box'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

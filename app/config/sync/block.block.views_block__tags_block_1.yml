@@ -1,0 +1,32 @@
+uuid: 8d21c15b-ec2e-4736-9797-1b7af3a98b2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.tags
+  module:
+    - system
+    - views
+  theme:
+    - sm_dev_portal_theme
+_core:
+  default_config_hash: dXH1wWFd3iwIwvDmKg1yvMW4J8r88aQcyewAERr6AI8
+id: views_block__tags_block_1
+theme: sm_dev_portal_theme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:tags-block_1'
+settings:
+  id: 'views_block:tags-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/blogs\r\n/blogs/*"
+    negate: false
+    context_mapping: {  }
