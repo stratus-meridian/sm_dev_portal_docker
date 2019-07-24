@@ -22,7 +22,7 @@ RUN rm -rf /var/www/html/* && rm -rf /root/.composer
 
 COPY apache-drupal.conf /etc/apache2/sites-enabled/000-default.conf
 
-WORKDIR /app
+RUN mkdir /app
 
 # Download SM Dev portal code form packagist https://packagist.org/packages/stratus-meridian/drupal8-composer-project
 RUN composer create-project stratus-meridian/drupal8-composer-project:8.x-dev /app --no-interaction
