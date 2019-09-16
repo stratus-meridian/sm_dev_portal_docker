@@ -1,10 +1,16 @@
 version: '3'
+version: '3'
 services:
   db:
     image: mariadb
     environment:
       MYSQL_DATABASE: drupal
+      MYSQL_USER: drupal
+      MYSQL_PASSWORD: drupal_db_pass
       MYSQL_ROOT_PASSWORD: drupal_db_pass
+      MYSQL_ROOT_HOST: '%'
+    ports:
+      - "3306:3306"
     volumes:
       - db_data:/var/lib/mysql
     restart: always
