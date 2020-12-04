@@ -1,9 +1,9 @@
-FROM drupal:8.7-apache
+FROM drupal:8.9-apache
 
 RUN apt-get update && apt-get install -y \
 	curl \
 	git \
-	mysql-client \
+	mariadb-client \
 	vim \
 	wget
 
